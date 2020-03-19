@@ -1,0 +1,32 @@
+.burger-part {
+    background-color: #881238;
+    width: 20px;
+    height: 3px;
+    margin-top: 6px;
+    border-radius: 2px;
+    transition: 400ms ease;
+}
+
+.burger-menu {
+    width: 20px;
+    padding: 6px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.burger-part:first-of-type {
+    margin-top: 0;
+}
+
+.mobile-menu-opened .burger-part:nth-child(1) {
+    transform: translateY(9px) translateX(0px) rotate(315deg);
+}
+
+.mobile-menu-opened .burger-part:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.mobile-menu-opened .burger-part:nth-child(3) {
+    display: none;
+}

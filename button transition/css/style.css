@@ -1,0 +1,29 @@
+.button {
+    position: relative;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    border: 2px solid #881238;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+.button:after {
+    position: absolute;
+    transition: .35s;
+    content: '';
+    width: 0;
+    top: 0;
+    height: 100%;
+    left: -10%;
+    z-index: -1;
+    background: #881238;
+    transform: skewX(15deg);
+}
+
+.button:hover:after {
+    left: -10%;
+    width: 120%;
+}
