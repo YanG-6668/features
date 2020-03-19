@@ -1,0 +1,12 @@
+html {
+    position: relative;
+}
+
+#cookies {
+    position: absolute;
+    cursor: move;
+    max-width: 150px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
