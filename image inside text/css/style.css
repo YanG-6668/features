@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head {
+    background-image: url(../img/desert.jpg);
+    background-size: cover;
+    background-position: top;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 10px;
+    font-size: 14rem;
+    text-transform: uppercase;
+}
